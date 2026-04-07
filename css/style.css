@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9fa;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    color: #2e7d32;
+    font-weight: 600;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #2e7d32;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #222;
+}
+
+.hero p {
+    color: #666;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* SECTION */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* CARDS */
+.card {
+    display: inline-block;
+    width: 280px;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #2e7d32;
+}
+
+/* BUTTON */
+button {
+    background: #2e7d32;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.about-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-container h1 {
+    margin-bottom: 40px;
+    color: #2e7d32;
+}
+
+.about-box {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.about-box h3 {
+    color: #2e7d32;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 25px; */
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #2e7d32;
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px 15px;
+    color: #555;
+}
